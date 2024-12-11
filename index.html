@@ -12,52 +12,54 @@
 </head>
 <body>
     <div id="container">
-        <nav id="sidebar">
-            <div id="logo">
-                <img class="icons" src="icons/view-dashboard.svg" alt="">
-                <a href="#" class="nav dash">Dashboard</a>
-            </div>
-            <ul id="upper-nav">
-                <li>
-                    <img class="icons" src="icons/home.svg" alt="">
-                    <a href="#" class="nav home">Home</a>
-                </li>
-                <li>
-                    <img class="icons" src="icons/card-account-details.svg" alt="">
-                    <a href="#" class="nav profile">Profile</a>
-                </li>
-                <li>
-                    <img class="icons" src="icons/message-reply.svg" alt="">
-                    <a href="#" class="nav messages">Messages</a>
-                </li>
-                <li>
-                    <img class="icons" src="icons/history.svg" alt="">
-                    <a href="#" class="nav history">History</a>
-                </li>
-                <li>
-                    <img class="icons" src="icons/file-multiple.svg" alt="">
-                    <a href="#" class="nav tasks">Tasks</a>
-                </li>
-                <li>
-                    <img class="icons" src="icons/account-group.svg" alt="">
-                    <a href="#" class="nav communities">Communities</a>
-                </li>
-            </ul>
-            <ul id="lower-nav">
-                <li>
-                    <img class="icons" src="icons/cog.svg" alt="">
-                    <a href="#" class="nav settings">Settings</a>
-                </li>
-                <li>
-                    <img class="icons" src="icons/message-question-outline.svg" alt="">
-                    <a href="#" class="nav support">Support</a>
-                </li>
-                <li>
-                    <img class="icons" src="icons/shield-check.svg" alt="">
-                    <a href="#" class="nav privacy">Privacy</a>
-                </li>
-            </ul>
-        </nav>
+        <div id="sidebar-container">
+            <nav id="sidebar">
+                <div id="logo">
+                    <img class="icons" src="icons/view-dashboard.svg" alt="">
+                    <a href="#" class="nav dash">Dashboard</a>
+                </div>
+                <ul id="upper-nav">
+                    <li>
+                        <img class="icons" src="icons/home.svg" alt="">
+                        <a href="#" class="nav home">Home</a>
+                    </li>
+                    <li>
+                        <img class="icons" src="icons/card-account-details.svg" alt="">
+                        <a href="#" class="nav profile">Profile</a>
+                    </li>
+                    <li>
+                        <img class="icons" src="icons/message-reply.svg" alt="">
+                        <a href="#" class="nav messages">Messages</a>
+                    </li>
+                    <li>
+                        <img class="icons" src="icons/history.svg" alt="">
+                        <a href="#" class="nav history">History</a>
+                    </li>
+                    <li>
+                        <img class="icons" src="icons/file-multiple.svg" alt="">
+                        <a href="#" class="nav tasks">Tasks</a>
+                    </li>
+                    <li>
+                        <img class="icons" src="icons/account-group.svg" alt="">
+                        <a href="#" class="nav communities">Communities</a>
+                    </li>
+                </ul>
+                <ul id="lower-nav">
+                    <li>
+                        <img class="icons" src="icons/cog.svg" alt="">
+                        <a href="#" class="nav settings">Settings</a>
+                    </li>
+                    <li>
+                        <img class="icons" src="icons/message-question-outline.svg" alt="">
+                        <a href="#" class="nav support">Support</a>
+                    </li>
+                    <li>
+                        <img class="icons" src="icons/shield-check.svg" alt="">
+                        <a href="#" class="nav privacy">Privacy</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
         <div id="content">
             <div id="content-top-row">
                 <form id="search-container" action="/" method="POST">
@@ -93,15 +95,15 @@
                     </div>
                     <div>
                         <p class="project title">Less Cool Project</p>
-                        <p class="project body">Aenean neque neque, tristique vel dictum eget, dictum eu lacus. In hac habitasse platea dictumst. Nulla a libero a enim dapibus faucibus ut sit amet elit. Praesent vel lacinia sem. Maecenas sed metus mollis, fringilla turpis. </p>
+                        <p class="project body">Aenean neque neque, tristique vel dictum eget, dictum eu lacus. In hac habitasse platea dictumst. Nulla a libero a enim dapibus faucibus ut sit amet elit. Praesent vel lacinia sem. Maecenas sed metus mollis, fringilla turpis.</p>
                     </div>
                     <div>
                         <p class="project title">Impossible App</p>
-                        <p class="project body">Cras tincidunt lobortis risus, commodo pulvinar diam accumsan vel. Quisque et turpis eu leo. </p>
+                        <p class="project body">Cras tincidunt lobortis risus, commodo pulvinar diam accumsan vel. Quisque et turpis eu leo.</p>
                     </div>
                     <div>
                         <p class="project title">Easy Peasy App</p>
-                        <p class="project body">Nunc varius auctor dolor vitae pretium. Duis ipsum massa, eleifend et ultrices vitae, malesuada vitae mi. Donec ultrices sodales lectus. Praesent sed dolor vel. </p>
+                        <p class="project body">Nunc varius auctor dolor vitae pretium. Duis ipsum massa, eleifend et ultrices vitae, malesuada vitae mi. Donec ultrices sodales lectus. Praesent sed dolor vel.</p>
                     </div>
                     <div>
                         <p class="project title">Ad Blocker</p>
@@ -112,42 +114,46 @@
                         <p class="project body">Sed viverra sollicitudin nisi sed bibendum. Nunc sed interdum erat. Nulla augue tellus, eleifend at nisi sed, vehicula pharetra orci. Vivamus ullamcorper, massa at.</p>
                     </div>
                 </div>
-                <div id="announcements">
-                    <h2>Announcements</h2>
-                    <div>
-                        <p class="announs title">Site Maintenance</p>
-                        <p class="announs body">Sed interdum semper velit commodo interdum. Curabitur nec accumsan arcu. Curabitur sed lectus eget orci sollicitudin ornare vel id neque. Quisque mattis luctus pellentesque. Pellentesque gravida, lorem non vehicula varius, lacus ante sagittis dui, quis ornare eros enim vitae nulla.</p>
+                <div id="announs-trending">
+                    <div id="announcements">
+                        <h2>Announcements</h2>
+                        <div>
+                            <div>
+                                <p class="announs title">Site Maintenance</p>
+                                <p class="announs body">Sed interdum semper velit commodo interdum. Curabitur nec accumsan arcu. Curabitur sed lectus eget orci sollicitudin ornare vel id neque. Quisque mattis luctus pellentesque. Pellentesque gravida, lorem non vehicula varius, lacus ante sagittis dui, quis ornare eros enim vitae nulla.</p>
+                            </div>
+                            <div>
+                                <p class="announs title">Community Share Day</p>
+                                <p class="announs body">Vestibulum velit elit, faucibus vel urna quis, congue rutrum mauris. Integer faucibus augue suscipit elementum vestibulum. Etiam arcu lectus, dapibus ut risus at, rutrum rhoncus odio. Morbi in purus ultricies nunc porttitor ullamcorper quis eget diam.</p>
+                            </div>
+                            <div>
+                                <p class="announs title">Updated Privacy Policy</p>
+                                <p class="announs body">Vivamus dictum lectus metus, quis condimentum magna auctor et. Aliquam ut ultricies leo. Phasellus tristique lorem arcu, ut dictum nibh efficitur sed. Mauris molestie mauris fringilla dapibus pharetra. Morbi tristique eros lacus. Nulla facilisi. Phasellus sit amet ex velit.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <p class="announs title">Community Share Day</p>
-                        <p class="announs body">Vestibulum velit elit, faucibus vel urna quis, congue rutrum mauris. Integer faucibus augue suscipit elementum vestibulum. Etiam arcu lectus, dapibus ut risus at, rutrum rhoncus odio. Morbi in purus ultricies nunc porttitor ullamcorper quis eget diam.</p>
-                    </div>
-                    <div>
-                        <p class="announs title">Updated Privacy Policy</p>
-                        <p class="announs body">Vivamus dictum lectus metus, quis condimentum magna auctor et. Aliquam ut ultricies leo. Phasellus tristique lorem arcu, ut dictum nibh efficitur sed. Mauris molestie mauris fringilla dapibus pharetra. Morbi tristique eros lacus. Nulla facilisi. Phasellus sit amet ex velit.</p>
-                    </div>
-                </div>
-                <div id="trending">
-                    <h2>Trending</h2>
-                    <div>
-                        <img class="profile-image" src="icons/wegan.png" alt="">
-                        <p class="trending tag">@wegan</p>
-                        <p class="trending body">Anti-Wool Project</p>
-                    </div>
-                    <div>
-                        <img class="profile-image" src="icons/Jimba.png" alt="">
-                        <p class="trending tag">@jbimba</p>
-                        <p class="trending body">World Peace Builder</p>
-                    </div>
-                    <div>
-                        <img class="profile-image" src="icons/mentats.png" alt="">
-                        <p class="trending tag">@mentats</p>
-                        <p class="trending body">Earworm of Century</p>
-                    </div>
-                    <div>
-                        <img class="profile-image" src="icons/jane.png" alt="">
-                        <p class="trending tag">@jane</p>
-                        <p class="trending body">Shepherd against Reapers</p>
+                    <div id="trending">
+                        <h2>Trending</h2>
+                        <div>
+                            <img class="profile-image" src="icons/wegan.png" alt="">
+                            <p class="trending tag">@wegan</p>
+                            <p class="trending body">Anti-Wool Project</p>
+                        </div>
+                        <div>
+                            <img class="profile-image" src="icons/Jimba.png" alt="">
+                            <p class="trending tag">@jbimba</p>
+                            <p class="trending body">World Peace Builder</p>
+                        </div>
+                        <div>
+                            <img class="profile-image" src="icons/mentats.png" alt="">
+                            <p class="trending tag">@mentats</p>
+                            <p class="trending body">Earworm of Century</p>
+                        </div>
+                        <div>
+                            <img class="profile-image" src="icons/jane.png" alt="">
+                            <p class="trending tag">@jane</p>
+                            <p class="trending body">Shepherd against Reapers</p>
+                        </div>
                     </div>
                 </div>
             </div>
